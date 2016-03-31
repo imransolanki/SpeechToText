@@ -42,7 +42,6 @@ public class MainActivity extends Activity {
 
         if (intent.resolveActivity(getPackageManager()) != null) {
             speechOutput.setText(getString(R.string.please_wait));
-            speechOutput.setSelected(true);
             startActivityForResult(intent, REQ_CODE_GOOGLE_SPEECH_ACTIVITY);
         } else {
             Toast.makeText(MainActivity.this, getString(R.string.speech_not_supported), Toast.LENGTH_SHORT).show();
