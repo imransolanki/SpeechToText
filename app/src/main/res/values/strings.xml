@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpeechToText</string>
+
+    <string name="please_wait">Please wait</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device does not support speech input</string>
+    <string name="tap_on_mic">Tap on Mic to speak</string>
+</resources>
